@@ -1,0 +1,323 @@
+#navbar {
+    /*background-color: #000018;*/
+
+}
+#navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    /*align-content: flex-end;*/
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+}
+
+/*====================================================================================================================*/
+        /*NavBar1*/
+/*====================================================================================================================*/
+
+.navbar1 ul{ /*background-color: #000018;*/ position: sticky; padding: 2rem 2rem;}
+
+.navbar1 ul li {padding: 0.6rem 0.4rem; /*padding: 1rem 3rem 0rem 0;*/ /*background-color: red;*/}
+
+.navbar1 ul li a {display: block; margin: 0 0 0 -1rem; padding: 0.1rem 0.4rem 0.1rem 1rem; /*position: absolute;*/ /*left: -2rem;*/ /*background-color: greenyellow;*/}
+
+/*====================================================================================================================*/
+/*NavBar2*/
+/*====================================================================================================================*/
+
+.navbar2 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+}
+
+.navbar2 ul li {
+    padding: 0.6rem 2rem 0.6rem 0.4rem;
+    /*background-color: red;*/
+}
+
+.navbar2 ul li a {
+    padding: 0 0 0 2rem;
+    position: absolute;
+    /*background-color: greenyellow;*/
+}
+
+
+/*====================================================================================================================*/
+/*NavBar3*/
+/*====================================================================================================================*/
+
+.navbar3 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+}
+
+.navbar3 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+}
+
+.navbar3 ul li a {
+    padding: 0.6rem 2rem;
+    /*background-color: greenyellow;*/
+}
+
+
+/*====================================================================================================================*/
+/*NavBar4*/
+/*====================================================================================================================*/
+
+.navbar4 {
+    border: 1px solid transparent;
+    border-radius: 6% 30%;
+}
+
+.navbar4 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+
+}
+
+.navbar4 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+}
+
+.navbar4 ul li a {
+    padding: 0.6rem 2rem;
+    /*background-color: greenyellow;*/
+    border-radius: 40px 8px;
+}
+
+
+/*====================================================================================================================*/
+/*NavBar5*/
+/*====================================================================================================================*/
+
+.navbar5 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+}
+
+.navbar5 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    border-top: 0.2rem solid gray;
+    padding: 1rem 0;
+}
+
+.navbar5 ul li.active {
+    border-top-color: #0fc4da;
+}
+
+.navbar5 ul li a {
+    padding: 0.6rem 2rem;
+    /*background-color: greenyellow;*/
+}
+
+
+/*====================================================================================================================*/
+/*NavBar6*/
+/*====================================================================================================================*/
+
+.navbar6 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+}
+
+.navbar6 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    border-bottom: 0.2rem solid gray;
+    padding: 1rem 0;
+}
+
+.navbar6 ul li.active {
+    border-bottom-color: #0fc4da;
+}
+
+.navbar6 ul li a {
+    padding: 0.6rem 2rem;
+    /*background-color: greenyellow;*/
+}
+
+
+/*====================================================================================================================*/
+/*NavBar7*/
+/*====================================================================================================================*/
+
+.navbar7 ul{
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 2rem;
+}
+
+.navbar7 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    border-top: 0.2rem solid gray;
+    border-bottom: 0.2rem solid gray;
+    padding: 0.8rem 0;
+}
+
+.navbar7 ul li.active {
+    border-top-color: #0fc4da;
+    border-bottom-color: #0fc4da;
+}
+
+.navbar7 ul li a {
+    padding: 0.6rem 2rem;
+    /*background-color: greenyellow;*/
+}
+
+
+/*====================================================================================================================*/
+/*NavBar8*/
+/*Pictures in background*/
+/*====================================================================================================================*/
+
+.navbar8 ul{
+    background-image: url("CustMedia/image0.png");
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 0rem;
+}
+
+.navbar8 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    /*padding: 0.8rem 0;*/
+}
+
+.navbar8 ul li.active {
+    /*border-top-color: #0fc4da;*/
+    /*border-bottom-color: #0fc4da;*/
+}
+
+.navbar8 ul li a {
+    padding: 1rem 2rem;
+    /*background-color: greenyellow;*/
+    background-color: rgba(0, 0, 0, 0.42);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.42);
+}
+
+
+/*====================================================================================================================*/
+/*NavBar9*/
+/*Pictures in background*/
+/*====================================================================================================================*/
+
+.navbar9 ul{
+    background-image: url("CustMedia/image0.png");
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 0;
+    /*justify-content: start;*/
+}
+
+.navbar9 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    /*padding: 0.8rem 0;*/
+}
+
+.navbar9 ul li.active a{
+    /*border-top-color: #0fc4da;*/
+    /*border-bottom-color: #0fc4da;*/
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.navbar9 ul li a {
+    padding: 2rem 3rem;
+    /*background-color: greenyellow;*/
+    color: white;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.42);*/
+}
+
+
+
+/*====================================================================================================================*/
+/*NavBar10*/
+/*Pictures in background*/
+/*====================================================================================================================*/
+
+.navbar10 ul{
+    background-image: url("CustMedia/image0.png");
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 0;
+    justify-content: start;
+}
+
+.navbar10 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    /*padding: 0.8rem 0;*/
+}
+
+.navbar10 ul li.active a{
+    /*border-top-color: #0fc4da;*/
+    /*border-bottom-color: #0fc4da;*/
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.navbar10 ul li a {
+    padding: 2rem 3rem;
+    /*background-color: greenyellow;*/
+    color: white;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.42);*/
+}
+
+
+
+/*====================================================================================================================*/
+/*NavBar11*/
+/*gradients in background*/
+/*====================================================================================================================*/
+
+.navbar11 ul{
+    background-image: linear-gradient(to right, rgba(219, 219, 219, 0.41), rgba(151, 151, 151, 0));
+    /*background-color: #000018;*/
+    position: sticky;
+    padding: 2rem 0;
+    justify-content: start;
+}
+
+.navbar11 ul li {
+    /*padding: 0.6rem 2rem 0.6rem 0.4rem;*/
+    /*background-color: red;*/
+    /*padding: 0.8rem 0;*/
+}
+
+.navbar11 ul li.active a{
+    /*border-top-color: #0fc4da;*/
+    /*border-bottom-color: #0fc4da;*/
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.navbar11 ul li a {
+    padding: 2rem 3rem;
+    /*background-color: greenyellow;*/
+    color: white;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.42), 0 6px 20px 0 rgba(0, 0, 0, 0.42);*/
+}
+
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*-------COLORS-------*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+
+
+

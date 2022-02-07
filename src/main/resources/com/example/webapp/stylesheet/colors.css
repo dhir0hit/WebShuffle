@@ -1,0 +1,11 @@
+.navbar1 ul {
+    background-color: #000018;
+}
+
+.navbar1 ul li {
+    background-color: red;
+}
+
+.navbar1 ul li a {
+    background-color: greenyellow;
+}
